@@ -1,0 +1,9 @@
+{
+    "id": "obsidian-local-ai",
+    "name": "Obsidian Local AI",
+    "version": "1.0.0",
+    "minAppVersion": "1.0.0",
+    "description": "Summarize notes using local AI via Ollama.",
+    "author": "Your Name",
+    "isDesktopOnly": true
+  }
