@@ -203,6 +203,7 @@ Copy compiled files into:
 
 .obsidian/plugins/obsidian-local-ai
 ### 📁 Project Structure
+```bash
 obsidian-local-ai/
 ├── main.ts
 ├── main.js
@@ -210,6 +211,7 @@ obsidian-local-ai/
 ├── styles.css
 ├── package.json
 ├── tsconfig.json
+```
 
 ### 🚀 Roadmap
 
