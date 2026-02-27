@@ -1,4 +1,4 @@
-#🚀 Obsidian Local AI
+# 🚀 Obsidian Local AI
 
 A fully local AI assistant plugin for Obsidian.
 
@@ -9,7 +9,7 @@ No usage credits.
 
 Everything runs on your machine using Ollama.
 
-#✨ What This Plugin Does
+# ✨ What This Plugin Does
 
 This plugin allows you to:
 
@@ -23,7 +23,7 @@ Avoid external APIs completely
 
 It connects Obsidian to a local LLM served by Ollama.
 
-#🔒 Why Local AI?
+# 🔒 Why Local AI?
 
 Most AI tools require:
 
@@ -41,11 +41,11 @@ http://localhost:11434
 
 Your data never leaves your computer.
 
-🛠 Requirements
+# 🛠 Requirements
 
 Before using this plugin, you must install:
 
-##1️⃣ Node.js (for development only)
+## 1️⃣ Node.js (for development only)
 
 Download:
 https://nodejs.org/
@@ -55,7 +55,7 @@ Verify:
 node -v
 npm -v
 ```
-##2️⃣ Ollama
+## 2️⃣ Ollama
 
 Download:
 https://ollama.com/download
@@ -70,7 +70,7 @@ Ollama runs automatically in background on Windows.
 If needed, start it manually:
 
 ollama serve
-##3️⃣ Download a Model
+## 3️⃣ Download a Model
 
 Example lightweight model:
 ```bash
@@ -85,7 +85,7 @@ Make sure the model name matches what is set in:
 
 main.ts
 const MODEL_NAME = "llama3.2:3b";
-###📦 Installation (Manual)
+### 📦 Installation (Manual)
 
 Open your Obsidian vault folder.
 
@@ -109,7 +109,7 @@ Go to:
 
 Settings → Community Plugins → Enable "Obsidian Local AI"
 
-###⚙️ How It Works
+### ⚙️ How It Works
 
 When you run:
 ```bash
@@ -127,13 +127,13 @@ Ollama processes it locally.
 
 The AI response is appended to the bottom of the note in a styled callout block.
 
-###🧠 Example Output
+### 🧠 Example Output
 ---
 > [!abstract]
 > ### AI Summary
 > This note explains the rules of French plural nouns...
 
-###🧩 How to Use
+### 🧩 How to Use
 Open a note.
 
 Press:
@@ -148,7 +148,7 @@ Summarize Note with Local AI
 
 The AI summary will be appended at the end.
 
-###🔍 Troubleshooting
+### 🔍 Troubleshooting
 Ollama Not Running
 
 If you see connection errors:
@@ -181,7 +181,7 @@ Ensure main.js exists
 
 Restart Obsidian
 
-###🧪 Development Setup
+### 🧪 Development Setup
 
 Clone repo:
 
@@ -202,7 +202,7 @@ npx tsc
 Copy compiled files into:
 
 .obsidian/plugins/obsidian-local-ai
-###📁 Project Structure
+### 📁 Project Structure
 obsidian-local-ai/
 ├── main.ts
 ├── main.js
@@ -211,7 +211,7 @@ obsidian-local-ai/
 ├── package.json
 ├── tsconfig.json
 
-###🚀 Roadmap
+### 🚀 Roadmap
 
  Ask before appending summary
 
@@ -227,7 +227,7 @@ obsidian-local-ai/
 
  Multi-command support
 
-###🔐 Privacy
+### 🔐 Privacy
 
 This plugin:
 
@@ -239,6 +239,6 @@ Does not track usage
 
 Sends requests only to localhost
 
-###🧑‍💻 Author
+### 🧑‍💻 Author
 
 Built by Mohammed Afridi.
